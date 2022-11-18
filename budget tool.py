@@ -1,5 +1,5 @@
 class Apples:
-  def __init__(self, name, price):
+  def __init__(self, name, price): 
     self.name = name
     self.price = float(price)
 
@@ -22,5 +22,6 @@ class Apples:
         
       else: 
         print(f'You can have these apples and you will have ${self.change(budget)} left over')
+      exit("Thanks for using our apple budget app.")
     
-    
+        
