@@ -10,3 +10,6 @@ try:
     appleBudget = float((input("What is your apple budget?")))
 except ValueError:
     exit("Please enter a number.")
+    
+for apples in[high, medium, low]:
+    apples.buy(appleBudget)
