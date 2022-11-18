@@ -18,6 +18,6 @@ class Apples:
       print(f'You can get some apples. {self.name}')
       
       if budget == self.price:
-        print("You have exactly enough money for these apples."
+        print("You have exactly enough money for these apples.")
     
     
